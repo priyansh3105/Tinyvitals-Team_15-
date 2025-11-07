@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1B878FAB2EBDAF2A00B608B8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B878FA92EBDAF2A00B608B8 /* ForgotPasswordViewController.swift */; };
+		1B878FAC2EBDAF2A00B608B8 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B878FAA2EBDAF2A00B608B8 /* ForgotPasswordViewController.xib */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1B878FA92EBDAF2A00B608B8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		1B878FAA2EBDAF2A00B608B8 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
 		3B9CFF7B2EB8E17600D44C05 /* Tinyvitals(Team_15).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinyvitals(Team_15).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -42,9 +49,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B878FA62EBDAEFD00B608B8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1B878FA72EBDAF0700B608B8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1B878FAA2EBDAF2A00B608B8 /* ForgotPasswordViewController.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1B878FA82EBDAF0D00B608B8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B878FA92EBDAF2A00B608B8 /* ForgotPasswordViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		3B9CFF722EB8E17600D44C05 = {
 			isa = PBXGroup;
 			children = (
+				1B878FA82EBDAF0D00B608B8 /* controller */,
+				1B878FA72EBDAF0700B608B8 /* view */,
+				1B878FA62EBDAEFD00B608B8 /* model */,
 				3B9CFF7D2EB8E17600D44C05 /* Tinyvitals(Team_15) */,
 				3B9CFF7C2EB8E17600D44C05 /* Products */,
 			);
@@ -122,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B878FAC2EBDAF2A00B608B8 /* ForgotPasswordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B878FAB2EBDAF2A00B608B8 /* ForgotPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
