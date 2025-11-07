@@ -49,13 +49,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B878FA62EBDAEFD00B608B8 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
 		1B878FA72EBDAF0700B608B8 /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,12 +65,19 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		1BAA3A832EBDC6A100CF9670 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				1B878FA72EBDAF0700B608B8 /* view */,
+				1B878FA82EBDAF0D00B608B8 /* controller */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
 		3B9CFF722EB8E17600D44C05 = {
 			isa = PBXGroup;
 			children = (
-				1B878FA82EBDAF0D00B608B8 /* controller */,
-				1B878FA72EBDAF0700B608B8 /* view */,
-				1B878FA62EBDAEFD00B608B8 /* model */,
+				1BAA3A832EBDC6A100CF9670 /* ForgotPassword */,
 				3B9CFF7D2EB8E17600D44C05 /* Tinyvitals(Team_15) */,
 				3B9CFF7C2EB8E17600D44C05 /* Products */,
 			);
