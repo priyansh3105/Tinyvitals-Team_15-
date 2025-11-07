@@ -38,6 +38,9 @@
                                 </label>
                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MPA-4P-wd5">
                                     <rect key="frame" x="0.0" y="36.333333333333314" width="353" height="34.333333333333343"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="5H9-wX-tmH"/>
+                                    </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <userDefinedRuntimeAttributes>
@@ -62,6 +65,9 @@
                                 </label>
                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6rC-iP-Rjw">
                                     <rect key="frame" x="0.0" y="36" width="353" height="34.333333333333343"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="XgJ-NN-eud"/>
+                                    </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <userDefinedRuntimeAttributes>
@@ -86,6 +92,9 @@
                                 </label>
                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="04h-j5-Awg">
                                     <rect key="frame" x="0.0" y="36.333333333333314" width="353" height="34.333333333333343"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="av3-Oj-vj4"/>
+                                    </constraints>
                                     <color key="textColor" systemColor="systemGrayColor"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
@@ -110,6 +119,9 @@
                                 </label>
                                 <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7BH-pq-f8a">
                                     <rect key="frame" x="0.0" y="35.999999999999943" width="353" height="34.333333333333343"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="xAo-3u-5fW"/>
+                                    </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <userDefinedRuntimeAttributes>
