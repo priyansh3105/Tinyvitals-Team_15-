@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1BFB41AD2EBD40FD004E55B9 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB41AB2EBD40FD004E55B9 /* SignupViewController.swift */; };
+		1BFB41AE2EBD40FD004E55B9 /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BFB41AC2EBD40FD004E55B9 /* SignupViewController.xib */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1BFB41AB2EBD40FD004E55B9 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		1BFB41AC2EBD40FD004E55B9 /* SignupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
 		3B9CFF7B2EB8E17600D44C05 /* Tinyvitals(Team_15).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinyvitals(Team_15).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -42,9 +49,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BFB41A32EBD13C2004E55B9 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				1BFB41A62EBD1480004E55B9 /* Controller */,
+				1BFB41A52EBD147B004E55B9 /* View */,
+				1BFB41A42EBD1470004E55B9 /* Model */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		1BFB41A42EBD1470004E55B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BFB41A52EBD147B004E55B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BFB41AC2EBD40FD004E55B9 /* SignupViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BFB41A62EBD1480004E55B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1BFB41AB2EBD40FD004E55B9 /* SignupViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		3B9CFF722EB8E17600D44C05 = {
 			isa = PBXGroup;
 			children = (
+				1BFB41A32EBD13C2004E55B9 /* SignIn */,
 				3B9CFF7D2EB8E17600D44C05 /* Tinyvitals(Team_15) */,
 				3B9CFF7C2EB8E17600D44C05 /* Products */,
 			);
@@ -122,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BFB41AE2EBD40FD004E55B9 /* SignupViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BFB41AD2EBD40FD004E55B9 /* SignupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
